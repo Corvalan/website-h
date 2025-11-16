@@ -1,5 +1,45 @@
-# Website-H
+<link rel="stylesheet" href="/PublicPages/assets/publicpages.css">
 
-This site was just created from Fibery.
+[Home](https://Corvalan.github.io/website-h/) | [First Section](https://Corvalan.github.io/website-h/pages/first-section/) | [Second Section](https://Corvalan.github.io/website-h/pages/second-section/)
 
-Content under `/pages/` will be published here once you run the Website Init and Section publish buttons.
+
+Welcome to Website-H at https://Corvalan.github.io/website-h/
+
+Sections:
+
+- [First Section](pages/first-section/)
+- [Second Section](pages/second-section/)
+
+---
+
+[[home_body]]
+
+<style>
+/* Global site tweaks */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+/* Navigation bar (if you wrap nav_menu in a <p> or container) */
+a {
+  color: #0366d6;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/* Active link style used in your section/page lists */
+.section-two-panel__sidebar a.is-active {
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+/* Optional: make inline "Home | Section" nav a bit nicer */
+p:first-of-type a {
+  margin-right: 0.25rem;
+}
+</style>
